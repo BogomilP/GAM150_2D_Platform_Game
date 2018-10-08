@@ -1,0 +1,25 @@
+This project uses the following items from Poly (http://poly.google.com):
+
+Title: Dice
+Author: Poly by Google
+URL: https://poly.google.com/view/c53_TngNW40
+License: Creative Commons CC-BY
+https://creativecommons.org/licenses/by/3.0/legalcode
+
+Title: Gem
+Author: Wesley Thompson
+URL: https://poly.google.com/view/6K1VsAxWLwH
+License: Creative Commons CC-BY
+https://creativecommons.org/licenses/by/3.0/legalcode
+
+Title: Gem
+Author: Poly by Google
+URL: https://poly.google.com/view/09p9-Mnp4Sc
+License: Creative Commons CC-BY
+https://creativecommons.org/licenses/by/3.0/legalcode
+
+Title: Icicle
+Author: Poly by Google
+URL: https://poly.google.com/view/dEz_atLOlje
+License: Creative Commons CC-BY
+https://creativecommons.org/licenses/by/3.0/legalcode
