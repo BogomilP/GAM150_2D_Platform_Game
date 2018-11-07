@@ -61,6 +61,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\MovingObjects.cs" />
     <Compile Include="Assets\PolyToolkit\ExampleScripts\HelloPoly.cs" />
     <Compile Include="Assets\PolyToolkit\ExampleScripts\Rotate.cs" />
     <Compile Include="Assets\PolyToolkit\ExampleScripts\ShowFeaturedExample.cs" />
@@ -115,6 +116,7 @@
     <Compile Include="Assets\Scripts\CollisionLevelChange.cs" />
     <Compile Include="Assets\Scripts\DoorKey.cs" />
     <Compile Include="Assets\Scripts\Hazard.cs" />
+    <Compile Include="Assets\Scripts\MainMenu.cs" />
     <Compile Include="Assets\Scripts\PlayerControls.cs" />
     <None Include="Assets\PolyToolkit\Internal\tbt\Brushes\Basic\Bubbles\Bubbles.shader" />
     <None Include="Assets\PolyToolkit\Internal\tbt\Brushes\Basic\SoftHighlighter\SoftHighlighter.shader" />

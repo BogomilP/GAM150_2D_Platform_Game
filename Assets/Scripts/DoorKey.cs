@@ -5,11 +5,13 @@ using UnityEngine.SceneManagement;
 public class DoorKey : MonoBehaviour
 {
     public GameObject Door;
-    public GameObject Capsule;
-    void OnTriggerEnter(Collider Capsule)
+    //This allows us to set a GameObjects in Unity. In this case the door blocking the goal.
+    void OnTriggerEnter(Collider other)
     {
-        Destroy(Door.gameObject);
-        Destroy(gameObject);
+        if (other.gameObject.tag == "Player")
+            Destroy (Door.gameObject);
+            Destroy(gameObject);
+        //This will destroy the key it is attached to and the door.
     }
 
 }
