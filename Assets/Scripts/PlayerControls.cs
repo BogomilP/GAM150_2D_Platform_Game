@@ -1,8 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-//I saw this script on one of my lectures. I was told that I could use studd from my lectures so I modified it slightly. I still made sure to comment as much as possible to understand it.
-
+//This is the official Unity Reference script for controls. I modified it to fit my needs and made sure to understand what everything does.
 public class PlayerControls : MonoBehaviour
 {
     CharacterController characterController;

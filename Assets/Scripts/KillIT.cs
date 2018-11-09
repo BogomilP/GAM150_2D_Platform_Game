@@ -7,5 +7,6 @@ public class KillIT : MonoBehaviour {
     private void OnTriggerEnter(Collider other)
     {
         Destroy(gameObject);
+        //Destroy the collectible when triggered.
     }
 }

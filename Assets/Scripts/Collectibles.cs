@@ -32,7 +32,8 @@ public class Collectibles : MonoBehaviour {
                 CollectibleText.text = CollectedObjects.ToString() + " collected out of " + TotalObjects;
                 StopAllCoroutines();
                 StartCoroutine(showText());
-
+                //When the collision triggers it adds 1 to the total value of the objects collected in the CollectedObjects integer and then displays a message to the player on screen.
+                //It also compares if the number of collected objects is lower than the total. This is how it can know when everything is collected.
 
             }
 
@@ -42,6 +43,7 @@ public class Collectibles : MonoBehaviour {
                 StopAllCoroutines();
                 StartCoroutine(showText());
                 Destroy(KeyDoor.gameObject);
+                //Once all objects have been collected and equal the total number of collectibles in the level the door for the key is Destroyed and access granted.
 
             }
         }
@@ -55,5 +57,6 @@ public class Collectibles : MonoBehaviour {
         GotEverything.enabled = true;
         yield return new WaitForSeconds(2);
         GotEverything.enabled = false;
+        //This just displays the text.
     }
 }
