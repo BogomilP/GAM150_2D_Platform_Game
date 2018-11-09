@@ -825,7 +825,7 @@ MonoBehaviour:
     m_LineSpacing: 1
   m_Text: 'Congratulations! You beat all levels.
 
-    Time for a rest.'
+    Time for a beer!'
 --- !u!222 &1972904826
 CanvasRenderer:
   m_ObjectHideFlags: 0
